@@ -1,0 +1,17 @@
+.area-botao {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.botao-voltar {
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+    text-decoration: none;
+    background-color: #f7df1e;
+    color: black;
+    font-weight: bold;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 15px 25px -10px rgba(2, 8, 15, 0.5);
+}

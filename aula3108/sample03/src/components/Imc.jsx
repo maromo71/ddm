@@ -38,8 +38,10 @@ export default function Imc(){
             <label>Altura: </label>
             <input type="number" step="0.1" value={altura}
                 onChange={(e)=>setAltura(e.target.value)} />
-            
-            <button onClick={calcularImc}>Calcular</button>
+            <div className="area-botao">
+                 <button  onClick={calcularImc}>Calcular</button>
+            </div>
+           
             <label>Resultado: {imc} </label>
             <label>Situacao: {mensagem} </label>
         </div>
